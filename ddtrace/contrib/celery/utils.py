@@ -9,6 +9,7 @@ def tags_from_context(context):
         'compression', 'correlation_id', 'countdown', 'delivery_info', 'eta',
         'exchange', 'expires', 'hostname', 'id', 'priority', 'queue', 'reply_to',
         'retries', 'routing_key', 'serializer', 'timelimit', 'origin', 'state',
+        'kwargs',
     )
 
     tags = {}
